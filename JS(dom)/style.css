@@ -1,0 +1,43 @@
+div {
+    padding: 5px 10px;
+    width: 240px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    border: 2px ridge blue;
+    border-radius: 7px;
+}
+
+button{
+    padding: 10px 36px;
+    margin: 25px auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font:600 0.9rem "Poppins" ;
+    background-color: aqua;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(0, 250, 21);
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+li{
+    border: 1px solid red;
+    border-radius: 7px;
+    width: 200px;
+    padding: 12px;
+    margin: 10px;
+}
+
+.buttons{
+    width: 400px;
+    position: absolute;
+    left: 25%;
+    top: 15px;
+    background-color: rgb(255, 0, 255);
+    border: none;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+div>img{
+    width: 75px;
+    margin: auto 40px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+    margin-right: 120px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://wallpapers.com/images/hd/space-2560x1440-byiv14x82rrdmww2.jpg");
+    color: white;
+    font-size: 50px;
+    height: 100vh;
+    width: 100%;
+}
+
+.sec1{
+    position: sticky;
+    top: 74px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+
+}
+
+.sec2>img{
+    height: 100vh;
+    width: 100%;
+}
+

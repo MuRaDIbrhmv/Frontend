@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: #353232;
+}
+.section_name{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+.container{
+    width: 1248px;
+    margin: 15px auto;
+}
+.card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: calc(100%/12*4);
+    padding: 10px;
+}
+.card{
+    border-radius: 15px;
+    background-color:#484849 ;
+   
+}
+.call_info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+}
+.info_data{
+    margin:12px;
+}
+.call_progress{
+    margin-top: 5px;
+    height: 3px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #ce284e 35%,#828282 35%);
+}
+.int_progress{
+    border-radius: 4px;
+    margin-top: 5px;
+    height: 3px;
+    background: linear-gradient(to right, #ce284e 50%, #828282 35%);
+}
+.offers{
+    margin: 25px 10px;
+}
+.offers div{
+    color: white;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #686868;
+    border-radius: 7px;
+}
+
+.card_head{
+    background-color: #ce284e;
+    height: 100px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.head_info{
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-weight: 600;
+}
+.price_part{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    gap: 10px;
+    background-color: #f5708f;
+    border-radius: 15px;
+}
+.price{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+.abune{
+    color: white;
+    font-size: 0.5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #333132;
+    color: #fff;
+    padding: 7px 160px;
+    margin-bottom: 10px;
+}
+

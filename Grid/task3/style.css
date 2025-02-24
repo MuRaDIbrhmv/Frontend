@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px 30%;
+}
+
+
+main>div{
+    background-color:#3d3d3d;
+    padding: 24px 12px;
+    border-radius: 10px;
+}
+
+.one{
+    grid-area: o;
+}
+
+.two{
+    grid-area: tw;
+}
+
+.three{
+    grid-area: th;
+}
+
+.four{
+    grid-area: fr;
+}
+.five{
+    grid-area: fv;
+}
+
+
+main{
+    color: white;
+    display: grid;
+    grid-template-areas: "o o o o" 
+                         "tw tw th th"
+                         "tw tw fr fv";
+    gap: 10px;
+}
+
+@media (min-width:992px){
+    .container{
+        margin: 20px 30%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        margin: 20px 22%;
+    }
+}
+@media(max-width:767px){
+    .container{
+        margin: 20px 16%;
+    }
+}

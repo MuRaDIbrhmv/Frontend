@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    width: 1320px;
+    margin: 20px auto;
+}
+.nav_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.cite_name{
+font-weight: 600;
+font-size: 2rem;
+}
+.tags{
+    display: flex;
+    gap: 18px;
+    font-family: "Open sans",sans-serif;
+    font-size: 1rem;
+}
+.dropdown_items>div{
+    margin: 10px 0;
+}
+.dropdown_items{
+    display: none;
+    box-shadow: 0px 11px 28px 6px rgba(0,0,0,0.35);
+    padding: 10px 15px;
+    width: 180px;
+
+}
+
+.dropdown:hover{
+    color: blue;
+    .dropdown_items{
+        display: block;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
+}
+a:hover{
+    color: blue;
+}
+
+header{
+    background-image: url('https://bootstrapmade.com/content/demo/BizLand/assets/img/hero-bg.jpg');
+}
+.main_content{
+    padding: 275px 0;
+   
+
+}
+span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+span+span{
+    color: blue;
+
+}
+p{
+    color: rgb(63, 63, 63);
+    
+}
+.button{
+    padding: 20px;
+}
+button{
+    color: white;
+    background-color: #106EEA;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 30px;
+}
+
+

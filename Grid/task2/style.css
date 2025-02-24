@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px 30%;
+}
+
+
+main>div{
+    background-color:#3d3d3d;
+    padding: 24px 12px;
+    border-radius: 10px;
+}
+
+.A{
+    grid-area: A;
+}
+
+.B{
+    grid-area: B;
+}
+
+.C{
+    grid-area: C;
+}
+
+.D{
+    grid-area: D;
+}
+.E{
+    grid-area: E;
+}
+
+
+main{
+    color: white;
+    display: grid;
+    grid-template-areas: "A A B B" 
+                         "C D D D"
+                         "E E E E";
+    gap: 10px;
+}
+
+@media (min-width:992px){
+    .container{
+        margin: 20px 30%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        margin: 20px 22%;
+    }
+}
+@media(max-width:767px){
+    .container{
+        margin: 20px 16%;
+    }
+}

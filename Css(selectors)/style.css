@@ -1,0 +1,199 @@
+p{background-color: yellow;
+    color: blue;
+}
+
+h1,h2,h3{
+    font-size: 24px;
+}
+
+div, section{
+    background-color: yellow;
+}
+
+ol,ul{
+    margin: 20px;
+    color: gold;
+}
+
+#Special {
+    border: 2px solid red;
+    border-radius: 7px;
+    color: blueviolet;
+
+}
+
+.randomclass{
+    text-shadow: 1px 1px;
+    box-shadow: 2px 2px;
+}
+
+div > span{
+    color: navy;
+    font-size: 18px;
+}
+
+.list > li{
+    color: orchid;
+    background-color: darkolivegreen;
+}
+
+h2 + p{
+    font-weight: bold;
+    font-style: italic;
+    background-color: antiquewhite;
+}
+
+h1 ~ p{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    border: 2px solid blue;
+   
+}
+a[target="_blank"]{
+    background-color: blueviolet;
+}
+table{
+    border: 2px solid greenyellow;
+    border-collapse: collapse;
+}
+
+.even{
+    background-color: darkslateblue;
+}
+
+.first:hover{
+    color: green;
+    font-size: 20px;
+}
+
+.second:hover{
+    color: red;
+    font-size: 20px;
+    
+}
+
+.menu > a:link {
+    font-size: 18px;
+}
+.menu > li > a:link{
+    font-style: italic;
+    
+}
+
+.menu > li > .groups>li> a:link{
+    font-size: small;
+    font-weight: bold;
+}
+
+.menu > li > .teachers>li> a:link{
+    font-size: small;
+    font-weight: bold;
+}
+
+body *:not(main):not(main *){
+    background-color: lightgray;
+    /* Yuxaridaki kodlara gore deyisir */
+}
+
+
+
+/* User card  */
+
+
+/* h1{
+    text-align: center;
+    font-size: 36px;
+    font-style: inherit;
+    color: rgb(59, 2, 59);
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 15px auto;
+    width: 270px;
+    box-shadow: 2px 2px 2px;
+    transition: 0.3s;
+    
+}
+
+h1:hover{
+    text-align: center;
+    font-size: 36px;
+    font-style: inherit;
+    color: purple;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 15px auto;
+    width: 285px;
+    box-shadow: 3px 3px 3px;
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 1px 1px 1px;
+}
+
+h2 + div{
+    font-size: 18px;
+    font-style: italic;
+    border: 1px groove black;
+    border-radius: 4px;
+    width: 205px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 + div:hover{
+    
+    font-size: 18px;
+    font-style: italic;
+    border: 1px groove black;
+    border-radius: 4px;
+    width: 210px;
+    padding: 7px 7px;
+    color: grey;
+    background-color: black;
+
+}
+
+div > ul > ol> li {
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    box-shadow: 1px 1px 1px;
+    margin: 12px;
+    margin-left: 0px;
+    transition: 0.3s;
+}
+
+div > ul > ol> li:hover {
+    color: rgb(63, 13, 110);
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 90px;
+    box-shadow: 1px 1px 1px;
+    margin: 16px;
+    margin-left: 0px;
+}
+
+
+.owned{
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 20px;
+    margin-left: 0px;
+} */

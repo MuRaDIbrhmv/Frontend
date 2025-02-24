@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #74A5D2;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;  
+}
+
+h2{
+    margin-left: 25%;
+    color:#74A5D2 ;
+    font-family: 'Poppins';
+
+/* Navbar and Footer background color : #74A5D2
+
+Card Hover color : #09ce44
+
+Card Button hover color : #04912e
+
+Navbar and Cards font family : Poppins
+
+Cards Section title and sub-title font family : Roboto Slab */
+}
+
+h3{
+    margin-left: 25%;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 7px;
+    width: 240px;
+    padding: 20px 25px;
+    box-shadow: 2px -1px 36px -3px rgba(0,0,0,0.52);
+    transition: 0.2s;
+    
+}
+
+.card:hover {
+    box-shadow: 2px -1px 36px -3px rgba(50, 255, 57, 0.626);
+    h4{
+        color: #02c23b;
+    }
+    .stars{
+        color: gold;
+    }
+    button{
+        background-color: #02c23b;
+    }
+    .image>img{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+
+}
+img{
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.icon1>img{
+    width: 40px;
+}
+.card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+p{
+    font-size: 0.6rem;
+    color: rgb(92, 92, 92);
+    margin-bottom: 5px;
+}
+
+.card_wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.stars{
+    font-size: 0.6rem;
+    transition: 0.2s;
+}
+.colors{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.colors>span{
+    font-family: 'Roboto Slab';
+    
+}
+
+.color1{
+    border-radius: 50%;
+    background-color: purple;
+    width: 10px;
+    height: 10px;
+}
+.color2{
+    border-radius: 50%;
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+.color3{
+    border-radius: 50%;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+.color4{
+    border-radius: 50%;
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+}
+.price{
+    font-size: 0.6rem;
+    padding-left: 50px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #0956ba;
+    border: none;
+    border-radius: 18px;
+    padding: 5px 50px;
+    margin-top: 7px;
+    color: white;
+    font-family: 'poppins';
+    transition: 0.2s;
+}
+
+footer{
+    background-color: #74A5D2 ;
+    width: auto;
+    height: 50vh;
+    margin-top: 150px;
+
+}
+
