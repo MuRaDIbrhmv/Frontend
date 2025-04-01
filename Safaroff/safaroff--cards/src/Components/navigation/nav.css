@@ -1,0 +1,27 @@
+nav{
+    z-index: 1;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    padding: 18px 32px;
+    width: 100%;
+}
+.shortcuts{
+    display: flex;
+    gap: 18px;
+    padding: 0 20px;
+}
+.shortcuts>div{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.shortcuts>div:hover{
+    color: lightskyblue;
+}

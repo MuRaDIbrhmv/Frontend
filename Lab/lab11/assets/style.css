@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #444;
+}
+
+.container{
+    width: 1248px;
+    padding: 10px;
+}
+
+
+.card{
+    font-family: "Poppins";
+    background-color: #111;
+    padding: 16px 12px;
+    border-radius: 12px;
+    width: 420px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+img{
+    width: 20%;
+}
+
+.songName{
+    color: #fff;
+}
+
+.singer{
+    color: #555555;
+}
+.text{
+    margin: 15px 0;
+}
+.text span{
+    color: #444;
+}
+
+span.newSpan{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.4s;
+}

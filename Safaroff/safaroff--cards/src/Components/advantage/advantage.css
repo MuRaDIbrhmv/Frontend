@@ -1,0 +1,45 @@
+main{
+    height: 520px;
+    background-color: #1BA9E3;
+    font-family: "Poppins";
+    color: #fff;
+}
+
+main>section>h3{
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 72px 0;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-part{
+    width: 40%;
+    padding: 20px 0;    
+}
+.advantage-part img{
+    transition: 0.4s;
+    align-items: center;
+}
+.advantage-part>div{
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.advantage-part>p{
+    color: #fff;
+    font-style: italic;
+    transition: 0.4s;
+}
+
+.advantage-part:hover img{
+    transform: translate(-155%);
+}
+
+.advantage-part:hover div{
+    transform: translateY(-135%);
+}
+.advantage-part:hover p{
+    transform: translateY(-75%);
+}

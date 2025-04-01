@@ -1,0 +1,28 @@
+.card{
+    font-family: "Poppins";
+    width: 576px;
+    height: 592px;
+    margin: 20px;
+}
+.imgframe{
+    padding: 44px;
+}
+.imgframe>img{
+    border: 3px solid black;
+    border-radius: 16px;
+    width: 100%;
+    height: 250px;
+    transition: 0.3s;
+}
+.imgframe>img:hover{
+    transform: scale(1.05);
+}
+
+h2{
+    margin: 10px 0;
+}
+p{
+    margin: 5px 0;
+    color: #444;
+}
+

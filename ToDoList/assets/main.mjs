@@ -9,7 +9,7 @@ function empty(){
     let empty = document.createElement("p")
     empty.innerText = "There is no list item"
     empty.className = "empty"
-    if(taskList.children.length ===0 ){
+    if(taskList.children.length === 0 ){
     taskList.appendChild(empty)
     }
     else{
@@ -50,15 +50,18 @@ addButton.addEventListener("click", function () {
         deleteButton.innerHTML = '<i class="fa-solid fa-trash"></i>'
         editButton.innerText = "EDIT"
         itemText.innerText = inputValue
-
         listItem.appendChild(deleteButton)
         listItem.appendChild(itemText)
         listItem.appendChild(editButton)
         taskList.appendChild(listItem)
+        input.value = ""
         empty()
         deleteButton.addEventListener("click", function () {
-            listItem.remove()
-            empty()
+            if(editMode === "Off"){
+                listItem.remove()
+                empty()
+            }
+            
 
         })
 
@@ -96,6 +99,7 @@ saveButton.addEventListener("click", function (event) {
     } else if (currentEditItem) {
         currentEditItem.parentElement.remove()
         saveButton.style.display = "none"
+        alert("Cannot save empty item. REMOVED...")
         empty()
     }
     input.value = ""

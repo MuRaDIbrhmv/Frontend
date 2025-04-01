@@ -1,0 +1,9 @@
+.wwdcard{
+    font-family: "Poppins";
+    width: 288px;
+    padding: 15px 0;
+}
+
+.wwdcard>p{
+    color: #52555e;
+}
